@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:background="#FAFAFA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Meal Tracker"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/mealSpinner"
+            android:entries="@array/meal_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+
+        <CheckBox android:id="@+id/biryani" android:text="Biryani (350 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/rice" android:text="Rice (200 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/idli" android:text="Idli (80 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/dosa" android:text="Dosa (150 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/chapati" android:text="Chapati (120 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <CheckBox android:id="@+id/salad" android:text="Salad (50 kcal)" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/calcMealBtn"
+            android:text="Calculate Meal"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#2196F3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/mealResult"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="#333"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

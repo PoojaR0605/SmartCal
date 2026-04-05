@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FitTrack Pro</string>
+
+    <!-- Gender Options -->
+    <string-array name="gender_options">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <!-- Activity Options -->
+    <string-array name="activity_options">
+        <item>Sedentary</item>
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Very active</item>
+    </string-array>
+
+    <!-- Goal Options -->
+    <string-array name="goal_options">
+        <item>Maintain Weight</item>
+        <item>Weight Loss</item>
+        <item>Weight Gain</item>
+    </string-array>
+
+    <!-- Meal Options (for MealActivity) -->
+    <string-array name="meal_options">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Snacks</item>
+    </string-array>
+</resources>
